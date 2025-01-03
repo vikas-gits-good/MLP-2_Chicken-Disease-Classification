@@ -4,7 +4,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 from pathlib import Path
 
-from src.cnnClassifier.config.configuration import PrepareBaseModelConfig
+from src.cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 
 
 class PrepareBaseModel:
